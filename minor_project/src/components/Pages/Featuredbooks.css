@@ -1,5 +1,6 @@
 .featured-books {
   padding: 2rem;
+  
   text-align: center;
   background-color: white;
   transition: background-color 0.5s, color 0.5s;

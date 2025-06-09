@@ -2,7 +2,8 @@
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
-const ThemeContext = createContext();
+// Make sure to EXPORT ThemeContext
+export const ThemeContext = createContext(); // <-- Add 'export' here
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState('light');
@@ -11,7 +12,6 @@ export const ThemeProvider = ({ children }) => {
     setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
   };
 
-  // Apply the class to <body> directly
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);
