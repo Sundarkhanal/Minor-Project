@@ -1,19 +1,19 @@
-import React, {useState} from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar'
-import Home from './components/Pages/Home'
-import About from './components/Pages/About'
-import Product from './components/Pages/Product'
-import Contact from './components/Pages/Contact'
+// src/App.js
 
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from './context/light_dark';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Pages/Home';
+import About from './components/Pages/About';
+import Product from './components/Pages/Product';
+import Contact from './components/Pages/Contact';
 
 const App = () => {
-
-  const [theme, setTheme] = useState('light')
   return (
-    <div className= {`container ${theme}`}>
+    <ThemeProvider>
       <Router>
-        <Navbar theme={theme} setTheme={setTheme}/> 
+        <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
@@ -21,11 +21,8 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </Router>
-        
-    </div>
-    
-  )
-}
+    </ThemeProvider>
+  );
+};
 
-export default App
-
+export default App;

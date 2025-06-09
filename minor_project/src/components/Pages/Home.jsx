@@ -1,32 +1,25 @@
-import React from 'react'
-import './Home.css'
+import React from 'react';
+import './Home.css';
 import heroImg from '../../assets/Books/Book-hero.jpg';
 import Featuredbooks from './Featuredbooks';
-
-
+import { useTheme } from '../../context/light_dark';
 
 const Home = () => {
-  const toggle_mode = () =>{
-    theme == 'light' ? setTheme('dark') : setTheme('light');
-  }
+  const { theme } = useTheme();
+
   return (
     <>
-    <section className='home' id='home'>
+      <section className={`home ${theme}`} id='home'>
         <div className='home-content'>
-            <div className='content'>
-                <h2>Best place to <br />Find your Favourite <br />Books</h2>
-            </div>
-
-            <img src={heroImg} alt="Hero-book" />
+          <div className='content'>
+            <h2>Best place to <br />Find your Favourite <br />Books</h2>
+          </div>
+          <img src={heroImg} alt="Hero-book" />
         </div>
-    </section>
-    
-    {/* // featured book section */}
-    <Featuredbooks />
+      </section>
+      <Featuredbooks />
     </>
-    
-  )
-}
+  );
+};
 
-export default Home
-
+export default Home;
