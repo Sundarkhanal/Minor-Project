@@ -2,6 +2,20 @@
   padding: 2rem;
   text-align: center;
 }
+body.dark-mode.featured-books h1{
+  color:white;
+}
+.featured-books h1 {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+/* .dark-mode .featured-books h1{
+  color: white;
+} */
+
 .book-grid {
   display: flex;
   justify-content: center;
@@ -9,6 +23,9 @@
   gap: 1.5rem;
   margin-top: 2rem;
 }
+
+
+
 
 .book-card {
     
@@ -19,6 +36,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  
 }
 
 .book-card:hover {

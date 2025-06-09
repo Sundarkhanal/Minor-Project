@@ -6,6 +6,9 @@ import Featuredbooks from './Featuredbooks';
 
 
 const Home = () => {
+  const toggle_mode = () =>{
+    theme == 'light' ? setTheme('dark') : setTheme('light');
+  }
   return (
     <>
     <section className='home' id='home'>
@@ -26,3 +29,4 @@ const Home = () => {
 }
 
 export default Home
+
