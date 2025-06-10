@@ -1,43 +1,26 @@
 import React from 'react'
-import './About.css';
+import './About.css'
+import aboutImage from '../../assets/nav-logo.png';
 
 const About = () => {
   return (
-    <section className="about">
-      <h1>About Us</h1>
-      <p>
-        Welcome to BookVerse! We’re passionate about connecting readers with stories
-        that inspire, educate, and entertain.
-      </p>
-
-      <div className="about-section">
-        <h2>Our Mission</h2>
+    <div className="about-container">
+      <div className="about-image">
+        <img src={aboutImage} alt="" />
+      </div>
+      <div className="about-text">
+        <h2>About Us</h2>
         <p>
-          Our mission is to make books accessible and enjoyable for everyone. Whether
-          you're into fiction, self-help, or textbooks, we’ve got something for you.
+          Welcome to our bookstore! We are passionate about sharing stories and
+          knowledge with the world. Our carefully selected collection ranges
+          from timeless classics to modern bestsellers. Explore, learn, and grow with us!
         </p>
       </div>
-
-      <div className="about-section">
-        <h2>Why Choose Us?</h2>
-        <ul>
-          <li>Wide selection of books from various genres</li>
-          <li>User-friendly interface and easy navigation</li>
-          <li>Hand-picked recommendations</li>
-          <li>Secure and fast checkout process</li>
-        </ul>
+      <div className="about-misson">
+        
       </div>
-
-      <div className="about-section">
-        <h2>Meet the Founder</h2>
-        <p>
-          BookVerse was created by a team of book lovers who wanted to make online
-          book shopping a joyful experience. Our founder, Alex, believes every story
-          deserves to be heard.
-        </p>
-      </div>
-    </section>
-  );
-};
+    </div>
+  )
+}
 
 export default About

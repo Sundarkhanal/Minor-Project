@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/nav-logo.png';
 import searchLight from '../../assets/search-w.png';
 import searchDark from '../../assets/search-b.png';
@@ -16,10 +17,10 @@ const Navbar = () => {
     <div className='navbar'>
       <img src={logo} alt="logo" className='logo' />
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Products</li>
-        <li>Contact</li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/product">Products</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
 
       <div className='search-box'>
