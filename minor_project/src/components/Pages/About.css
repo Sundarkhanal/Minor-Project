@@ -5,7 +5,7 @@
   padding: 8rem 2rem;
   gap: 10rem;
   flex-wrap: wrap;
-  background-color: #5f83fa;
+  background-color: lightblue;
   border-radius: 10px;
   margin: 2rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
@@ -25,15 +25,57 @@
 }
 
 .about-text h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: white;
   margin-bottom: 0.8rem;
 }
 
 .about-text p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: white;
   line-height: 1.6;
+  
+}
+.about-misson-vison{
+  display: flex;
+  gap: 10rem;
+  margin-top: 5rem;
+}
+.about-misson{
+  border: solid 2px blue;
+  border-radius: 10px;
+  flex: 1;
+  margin-left: 20px;
+  padding: 20px;
+  line-height: 1.6;
+  background: lightblue;
+}
+.about-vision{
+  border: solid 2px blue;
+  border-radius: 10px;
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  line-height: 1.6;
+  background: lightblue;
+}
+.our-partners{
+  border: solid 2px blue;
+  border-radius: 10px;
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  padding: 50px;
+  text-align: center;
+}
+.partners-title {
+  text-align: center;
+  color: red;
+  margin-top: 30px;
+}
+.ratna-pustak{
+  border-radius: 50%;
+  border: 4px soild lightblue;
 }
 
 /* Responsive tweak */
