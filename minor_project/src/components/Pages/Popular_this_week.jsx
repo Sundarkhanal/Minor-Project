@@ -12,21 +12,21 @@ const Popular_this_week = () => {
   return (
     <section className={`popular-this-week ${theme === 'dark' ? 'dark' : ''}`}>
         <h1>Popular This Week</h1>
-        <div className='book-grid1'>
-            <div className='book-card1'>
-                <img src={book1} alt="Book 1" />
+        <div className='book-grid'>
+            <div className='book-card'>
+                <img src={book1} alt="Book " />
                 <h4>Book title</h4>
             </div>
-            <div className='book-card2'>
-                <img src={book2} alt="Book 1" />
+            <div className='book-card'>
+                <img src={book2} alt="Book " />
                 <h4>Book title</h4>
             </div>
-            <div className='book-card3'>
-                <img src={book3} alt="Book 1" />
+            <div className='book-card'>
+                <img src={book3} alt="Book " />
                 <h4>Book title</h4>
             </div>
-            <div className='book-card4'>
-                <img src={book4} alt="Book 1" />
+            <div className='book-card'>
+                <img src={book4} alt="Book " />
                 <h4>Book title</h4>
             </div>
             

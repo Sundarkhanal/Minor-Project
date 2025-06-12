@@ -33,8 +33,8 @@ const About = () => {
         <p>To be a favorite online bookshop that inspires learning and a love for reading.</p>
       </div>
     </div>
+    <h1 className="partners-title">Our Partners</h1>
     <div className="our-partners">
-      <h1 className="partners-title">Our Partners</h1>
       <div className="ratna-pustak">
         <img src={ratnaPustak} alt="ratna-pustak image" />
         <h2>Ratna Pustak Publishers</h2>
