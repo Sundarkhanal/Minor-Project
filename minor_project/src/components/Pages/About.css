@@ -10,6 +10,11 @@
   margin: 2rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
+.dark .about-container{
+  background-color: #1C1C1C;
+  color: white;
+}
+
 
 .about-image img {
   width: 180px;
@@ -36,29 +41,36 @@
   line-height: 1.6;
   
 }
+.dark .about-text h2, .dark .about-text p{
+  color: white;
+}
 .about-misson-vison{
   display: flex;
   gap: 10rem;
   margin-top: 5rem;
 }
-.about-misson{
+.dark .about-misson-vison{
+  background-color: black;
+}
+
+.about-misson, .about-vision{
   border: solid 2px blue;
   border-radius: 10px;
   flex: 1;
   margin-left: 20px;
-  padding: 20px;
-  line-height: 1.6;
-  background: lightblue;
-}
-.about-vision{
-  border: solid 2px blue;
-  border-radius: 10px;
-  flex: 1;
   margin-right: 20px;
   padding: 20px;
   line-height: 1.6;
   background: lightblue;
 }
+.dark .about-misson {
+  background-color: black;
+  color: white;
+} 
+.dark .about-vision{
+  background-color: black;
+  color: white;
+} 
 .our-partners {
   border: 2px solid #6A0DAD; /* Royal purple border */
   border-radius: 20px;
@@ -77,6 +89,9 @@
   margin: 40px 0 20px 0;
   font-size: 2rem;
   font-weight: bold;
+}
+.dark .partners-title{
+  color: red;
 }
 
 .our-partners h2 {
