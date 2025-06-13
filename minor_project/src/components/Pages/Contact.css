@@ -1,0 +1,55 @@
+/* .contact{
+    background-color: lightblue;
+} */
+.heading h1{
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    display: flex;
+    margin: 50px;
+}
+.contact-us{
+    display: flex;
+    justify-content: center;
+    gap: 70px; 
+}
+.sales-team{
+    border: 3px solid #f76b8a;
+    padding: 20px;
+    width: 400px;      /* Set desired width */
+    max-width: 100%; 
+    /* margin: 20px auto;  */
+    line-height: 2rem;
+    background-color: #eaf6f6;
+    
+   
+}
+.sales-team h2, p{
+    text-align: center;
+}
+.technical-support h2, p{
+    text-align: center;
+}
+.technical-support{
+    border: 3px solid #f76b8a;
+    padding: 20px;
+    width: 400px;      /* Set desired width */
+    max-width: 100%;   /* Responsive for smaller screens */
+    /* margin: 20px auto; */
+    line-height: 2rem;
+    background-color: #eaf6f6;
+    margin-right: 40px;
+
+}
+.sales-btn, .tech-btn{
+    border: 2px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f76b8a;
+    width: 300px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+

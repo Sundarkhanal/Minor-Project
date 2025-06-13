@@ -10,14 +10,14 @@
   transition: all 0.3s ease;
 }
 
-/* Light Theme */
+/* Light Theme
 .app-container.light {
   background-color: #ffffff;
   color: #000000;
 }
 
 /* Dark Theme */
-.app-container.dark {
+.dark .app-container {
   background-color: #1e1e1e;
   color: #ffffff;
-}
+} 

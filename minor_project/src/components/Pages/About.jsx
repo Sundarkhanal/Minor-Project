@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import aboutImage from '../../assets/nav-logo.png';
+import aboutImage from '../../assets/nav1-logo.jpg';
 import ratnaPustak from '../../assets/Book_publishers/ratna-pustak.png';
 import bpbPublishers from '../../assets/Book_publishers/bpb-publishers.png';
 import finePrint from '../../assets/Book_publishers/fineprint publishers.jpeg';
