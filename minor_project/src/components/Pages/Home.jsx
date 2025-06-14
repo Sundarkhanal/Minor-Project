@@ -4,6 +4,7 @@ import heroImg from '../../assets/Books/Book-hero.jpg';
 import Featuredbooks from './Featuredbooks';
 import { useTheme } from '../../context/light_dark';
 import Popular_this_week from './Popular_this_week';
+import Footer from './Footer';
 
 const Home = () => {
   const { theme } = useTheme();
@@ -20,6 +21,7 @@ const Home = () => {
       </section>
       <Featuredbooks />
       <Popular_this_week />
+      <Footer />
     </>
   );
 };

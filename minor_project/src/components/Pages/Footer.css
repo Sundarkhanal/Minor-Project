@@ -1,0 +1,84 @@
+.footer-section {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer-about,
+.quick-links,
+.contact-details {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* LEFT: Logo + Text */
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+
+}
+
+.footer-about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #4a90e2;
+  margin-bottom: 15px;
+  margin-left: 90px;
+}
+
+.footer-about p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* MIDDLE: Quick Links */
+.quick-links h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links li {
+  margin: 6px 0;
+  display: block;
+  line-height: 50px;
+}
+
+.quick-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.quick-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* RIGHT: Contact */
+.contact-details p {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  line-height: 30px;
+}
+
+.contact-details i {
+  margin-right: 10px;
+  color: #f76b8a;
+}

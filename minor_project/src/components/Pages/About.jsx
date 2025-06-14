@@ -5,6 +5,7 @@ import ratnaPustak from '../../assets/Book_publishers/ratna-pustak.png';
 import bpbPublishers from '../../assets/Book_publishers/bpb-publishers.png';
 import finePrint from '../../assets/Book_publishers/fineprint publishers.jpeg';
 import pearson from '../../assets/Book_publishers/pearson.png';
+import Footer from './Footer';
 
 
 const About = () => {
@@ -52,7 +53,7 @@ const About = () => {
         <h2>Fineprint Publishers</h2>
       </div>
     </div>
-    
+    <Footer />
     </>
   )
 }

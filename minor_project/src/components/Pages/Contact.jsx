@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css';
+import Footer from './Footer';
 
 const Contact = () => {
   return (
@@ -48,8 +49,8 @@ const Contact = () => {
             </iframe>
           </div>
       </section>
-</div>
-
+    </div>
+    <Footer />
     </>
   )
 }
