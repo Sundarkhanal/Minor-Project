@@ -27,6 +27,16 @@ const Footer = () => {
         <p><i className="fa-solid fa-envelope"></i> khanalpustakbhandar@gmail.com</p>
         <p><i className="fa-solid fa-location-dot"></i> Dhurkot, Gulmi</p>
       </section>
+
+      <section className='follow-us'>
+        <h2>Follow Us</h2>
+        <div className="social-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </section>
 </div>
 
   )

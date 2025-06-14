@@ -75,10 +75,30 @@
   display: flex;
   align-items: center;
   margin: 10px 0;
-  line-height: 30px;
+  line-height: 50px;
 }
 
 .contact-details i {
   margin-right: 10px;
   color: #f76b8a;
+}
+.follow-us{
+    text-align: center;
+    
+}
+.follow-us h2{
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+} 
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  gap: 20px;                /* Space between icons */
+  margin-top: 10px;
+  margin-right: 80px;
+}
+.follow-us i{
+    line-height: 30px;
+
 }

@@ -4,11 +4,13 @@ import book1 from '../../assets/Books/book-1.jpeg';
 import book2 from '../../assets/Books/book-2.jpeg';
 import book3 from '../../assets/Books/book-3.jpeg';
 import { ThemeContext } from '../../context/light_dark'; // adjust path if needed
+import Footer from './Footer';
 
 const Featuredbooks = () => {
   const { theme } = useContext(ThemeContext); // get current theme
 
   return (
+  <div>
     <section className={`featured-books ${theme === 'dark' ? 'dark' : ''}`}>
       <h1>Featured Books</h1>
       <div className='book-grid'>
@@ -87,6 +89,8 @@ const Featuredbooks = () => {
         </div>
       </div>
     </section>
+    <Footer />
+    </div>
   );
 };
 
