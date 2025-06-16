@@ -6,8 +6,12 @@
   background: #eaf6f6; ;
   min-height: 80vh;
 }
+body .dark .home{
+  background-color: black;
+}
 .dark .home{
   background-color: black;
+  border: 2px solid #f76b8a;
 }
 
 .home-content {
@@ -18,10 +22,6 @@
   width: 100%;
   gap: 40px;
   flex-wrap: wrap;
-}
-.dark .home-content{
-  background-color: black;
-
 }
 
 .content {

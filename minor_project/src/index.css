@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.app-container {
+/* .app-container {
   min-height: 100vh;
   padding: 20px;
   transition: all 0.3s ease;
@@ -17,7 +17,7 @@
 }
 
 /* Dark Theme */
-.dark .app-container {
+/* .dark .app-container {
   background-color: #1e1e1e;
   color: #ffffff;
-} 
+}  */ 

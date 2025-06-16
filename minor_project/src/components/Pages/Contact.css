@@ -9,10 +9,19 @@
     display: flex;
     margin: 50px;
 }
+.dark .heading h1{
+  color: #e55a79;
+}
+/* .dark *{
+  background: black;
+} */
 .contact-us{
     display: flex;
     justify-content: center;
     gap: 70px; 
+}
+.dark .contact-us{
+  color: #ddd;
 }
 .sales-team{
     border: 3px solid #f76b8a;
@@ -22,13 +31,15 @@
     /* margin: 20px auto;  */
     line-height: 2rem;
     background-color: #eaf6f6;
-    
-    
-   
+}
+.dark .sales-team{
+  color: white;
+  background: black;
 }
 .sales-team h2, p{
     text-align: center;
 }
+
 .technical-support h2, p{
     text-align: center;
 }
@@ -43,6 +54,9 @@
     margin-right: 40px;
 
 }
+.dark .technical-support{
+  background-color: black;
+}
 .sales-btn, .tech-btn{
     border: 2px;
     font-weight: bold;
@@ -54,7 +68,9 @@
     font-size: 15px;
     box-shadow:0 4px rgb(216, 215, 215);
 }
-
+.dark .sales-btn, .tech-btn{
+  color: white;
+}
 /* contact form starts */
 /* Container for the entire contact section */
 .contact-form {
@@ -73,10 +89,17 @@
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
+.dark .form-container{
+  background: black;
+  color: white;
+}
 
 .contact-right-title h2 {
   color: #333;
   margin-bottom: 15px;
+}
+.dark .contact-right-title h2{
+  color: white;
 }
 
 .contact-right-title hr {

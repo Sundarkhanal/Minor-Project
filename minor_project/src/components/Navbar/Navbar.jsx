@@ -3,7 +3,7 @@
 import React from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/nav1-logo.jpg';
+import logo from '../../assets/nav2-logo.jpg';
 import searchLight from '../../assets/search-w.png';
 import searchDark from '../../assets/search-b.png';
 import toggleLight from '../../assets/night.png';

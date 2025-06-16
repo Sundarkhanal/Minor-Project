@@ -1,6 +1,6 @@
 .about-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   padding: 8rem 2rem;
   gap: 10rem;
@@ -27,19 +27,20 @@
 .about-text {
   max-width: 500px;
   text-align: left;
+  flex: 1;
 }
 
 .about-text h2 {
   font-size: 1.6rem;
   color: #f76b8a;
   margin-bottom: 0.8rem;
+  font-weight: bold;
 }
 
 .about-text p {
   font-size: 1.2rem;
   color: black;
   line-height: 1.6;
-  
 }
 .dark .about-text h2, .dark .about-text p{
   color: white;
@@ -57,7 +58,6 @@
 
 .about-misson, .about-vision{
   border: solid 2px blue;
-  
   border-radius: 10px;
   flex: 1;
   margin-left: 20px;

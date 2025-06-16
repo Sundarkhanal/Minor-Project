@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import aboutImage from '../../assets/nav1-logo.jpg';
+import aboutImage from '../../assets/nav2-logo.jpg';
 import ratnaPustak from '../../assets/Book_publishers/ratna-pustak.png';
 import bpbPublishers from '../../assets/Book_publishers/bpb-publishers.png';
 import finePrint from '../../assets/Book_publishers/fineprint publishers.jpeg';
@@ -18,9 +18,7 @@ const About = () => {
       <div className="about-text">
         <h2>About Us</h2>
         <p>
-          Welcome to our bookstore! We are passionate about sharing stories and
-          knowledge with the world. Our carefully selected collection ranges
-          from timeless classics to modern bestsellers. Explore, learn, and grow with us!
+          Welcome to our bookstore! We are passionate about sharing stories and knowledge with the world. Our carefully selected collection ranges from timeless classics to modern bestsellers. Explore, learn, and grow with us!
         </p>
       </div>
     </div>
