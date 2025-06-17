@@ -1,6 +1,4 @@
- .contact{
-    background-color: #fcfefe;
-} 
+
 .heading h1{
     font-size: 50px;
     align-items: center;
@@ -12,9 +10,6 @@
 .dark .heading h1{
   color: #e55a79;
 }
-/* .dark *{
-  background: black;
-} */
 .contact-us{
     display: flex;
     justify-content: center;
@@ -148,6 +143,9 @@
 .map-container h2 {
   margin-bottom: 15px;
   color: #333;
+}
+.dark .map-container h2{
+  color: white;
 }
 
 .map-container iframe {

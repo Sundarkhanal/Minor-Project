@@ -6,6 +6,7 @@ import bpbPublishers from '../../assets/Book_publishers/bpb-publishers.png';
 import finePrint from '../../assets/Book_publishers/fineprint publishers.jpeg';
 import pearson from '../../assets/Book_publishers/pearson.png';
 import Footer from './Footer';
+import Login_SIgnup from './Login_SIgnup';
 
 
 const About = () => {
@@ -51,6 +52,7 @@ const About = () => {
         <h2>Fineprint Publishers</h2>
       </div>
     </div>
+    <Login_SIgnup />
     <Footer />
     </>
   )

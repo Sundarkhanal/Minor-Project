@@ -42,7 +42,7 @@
   color: black;
   line-height: 1.6;
 }
-.dark .about-text h2, .dark .about-text p{
+.dark .about-text p{
   color: white;
 }
 .about-misson-vison{
@@ -97,7 +97,7 @@
   font-weight: bold;
 }
 .dark .partners-title{
-  color: red;
+  color: #f76b8a;
 }
 .dark .our-partners{
   background-color: black;

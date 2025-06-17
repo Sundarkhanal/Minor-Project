@@ -1,23 +1,24 @@
-*{
+/* Default reset */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
-/* .app-container {
-  min-height: 100vh;
-  padding: 20px;
-  transition: all 0.3s ease;
-}
 
-/* Light Theme
-.app-container.light {
+/* Light mode body */
+body.light {
   background-color: #ffffff;
   color: #000000;
 }
 
-/* Dark Theme */
-/* .dark .app-container {
-  background-color: #1e1e1e;
+/* Dark mode body */
+body.dark {
+  background-color: black;
   color: #ffffff;
-}  */ 
+}
+
+/* Optional: transition */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
