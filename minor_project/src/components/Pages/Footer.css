@@ -94,7 +94,7 @@
 .social-icons {
   display: flex;
   justify-content: center; /* Center horizontally */
-  gap: 20px;                /* Space between icons */
+  /* gap: 20px;                Space between icons */
   margin-top: 10px;
   margin-right: 80px;
 }
