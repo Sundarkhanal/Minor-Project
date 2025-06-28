@@ -1,14 +1,15 @@
-.container{
+.container {
     height: 100vh;
     background-color: azure;
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 100px;
     padding-bottom: 30px;
     width: 600px;
 }
-.header{
+
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,24 +17,28 @@
     width: 100%;
     margin-top: 30px;
 }
-.text{
+
+.text {
     color: blue;
     font-size: 48px;
     font-weight: 700;
 }
-.underline{
+
+.underline {
     width: 61px;
     height: 6px;
     background: blue;
     border-radius: 9px;
 }
-.inputs{
+
+.inputs {
     margin-top: 55px;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-.input{
+
+.input {
     display: flex;
     align-items: center;
     margin: auto;
@@ -42,10 +47,12 @@
     background: white;
     border-radius: 6px;
 }
-i{
+
+i {
     margin: 0px 30px;
 }
-.input input{
+
+.input input {
     height: 50px;
     width: 400px;
     background: transparent;
@@ -54,22 +61,26 @@ i{
     color: bisque;
     font-size: 18px;
 }
-.forgot-password{
+
+.forgot-password {
     padding-left: 62px;
     margin-top: 27px;
     color: red;
     font-size: 18px;
 }
-.forgot-passowrd span{
+
+.forgot-passowrd span {
     color: brown;
     cursor: pointer;
 }
-.submit-container{
+
+.submit-container {
     display: flex;
     gap: 30px;
     margin: 60px auto;
 }
-.submit{
+
+.submit {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +93,8 @@ i{
     font-weight: 700;
     cursor: pointer;
 }
-.gray{
+
+.gray {
     background: blueviolet;
     color: white;
 }

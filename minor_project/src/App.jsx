@@ -15,48 +15,16 @@ import Login_SIgnup from './components/Pages/Login_SIgnup';
 const App = () => {
   return (
     <ThemeProvider>
-      <AuthProvider> {/* ✅ wrap everything inside AuthProvider */}
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path='/' element={<Login_SIgnup />} />
-
-            {/* ✅ Protected Routes */}
-            <Route
-              path='/home'
-              element={
-                <PrivateRoute>
-                  <Home />
-                </PrivateRoute>
-              }
-            />
-            <Route
-              path='/about'
-              element={
-                <PrivateRoute>
-                  <About />
-                </PrivateRoute>
-              }
-            />
-            <Route
-              path='/product'
-              element={
-                <PrivateRoute>
-                  <Product />
-                </PrivateRoute>
-              }
-            />
-            <Route
-              path='/contact'
-              element={
-                <PrivateRoute>
-                  <Contact />
-                </PrivateRoute>
-              }
-            />
-          </Routes>
-        </Router>
-      </AuthProvider>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/product' element={<Product />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/login-signup' element={<Login_SIgnup />} />
+        </Routes>
+      </Router>
     </ThemeProvider>
   );
 };

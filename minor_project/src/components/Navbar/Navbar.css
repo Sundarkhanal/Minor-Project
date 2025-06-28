@@ -2,10 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #66bfbf; ;
+  background: #66bfbf;
+  ;
   padding: 15px 7%;
   transition: background 0.5s, color 0.5s;
-  
+
 }
 
 body.dark .navbar {
@@ -34,12 +35,14 @@ ul li {
   font-weight: bolder;
   text-decoration: none;
 }
-ul li a{
+
+ul li a {
   text-decoration: none;
 }
-ul li a:hover{
+
+ul li a:hover {
   text-decoration: underline;
-  color:#f76b8a ;
+  color: #f76b8a;
 }
 
 .toggle-icon {
@@ -92,3 +95,62 @@ body.dark .search-box input::placeholder {
   width: 20px;
   cursor: pointer;
 }
+
+.login-signup {
+  margin-left: 40px;
+  margin-right: 0px;
+  border: 2px solid #f76b8a;
+  border-radius: 30px;
+}
+
+.login {
+  color: #f76b8a;
+  border-radius: 20px;
+  font-size: 10px;
+
+}
+
+/* ------------------ Responsive Navbar ------------------ */
+
+/* @media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 5%;
+  } */
+
+/* ul {
+    width: 100%;
+    text-align: left;
+    display: none; */
+/* hide by default on mobile */
+/* flex-direction: column;
+    background: inherit;
+  } */
+
+/* ul.show {
+    display: flex;
+  }
+
+  ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .toggle-icon {
+    display: block;
+    margin-left: auto;
+  }
+
+  .search-box {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .login-signup {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+} */
