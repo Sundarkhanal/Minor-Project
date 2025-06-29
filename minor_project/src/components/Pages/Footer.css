@@ -82,23 +82,77 @@
   margin-right: 10px;
   color: #f76b8a;
 }
-.follow-us{
-    text-align: center;
-    
+
+.follow-us {
+  text-align: center;
+
 }
-.follow-us h2{
-    display: flex;
-    align-items: center;
-    line-height: 30px;
-} 
+
+.follow-us h2 {
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+}
+
 .social-icons {
   display: flex;
-  justify-content: center; /* Center horizontally */
+  justify-content: center;
+  /* Center horizontally */
   /* gap: 20px;                Space between icons */
   margin-top: 10px;
   margin-right: 80px;
 }
-.follow-us i{
-    line-height: 30px;
 
+.follow-us i {
+  line-height: 30px;
+
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center items */
+    padding: 20px;
+    /* Adjust padding */
+  }
+
+  .footer-about img {
+    margin-left: 0;
+    /* Remove left margin */
+  }
+
+  .footer-about {
+    align-items: center;
+    /* Center align items */
+  }
+
+  .quick-links,
+  .contact-details {
+    text-align: center;
+    /* Center text */
+    margin: 20px 0;
+    /* Add margin for spacing */
+  }
+
+  .quick-links h2 {
+    font-size: 18px;
+    /* Adjust font size */
+  }
+
+  .quick-links li {
+    line-height: 30px;
+    /* Adjust line height */
+  }
+
+  .contact-details p {
+    line-height: 30px;
+    /* Adjust line height */
+  }
+
+  .social-icons {
+    margin-right: 0;
+    /* Remove right margin */
+  }
 }

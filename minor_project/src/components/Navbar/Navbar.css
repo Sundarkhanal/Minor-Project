@@ -110,47 +110,59 @@ body.dark .search-box input::placeholder {
 
 }
 
-/* ------------------ Responsive Navbar ------------------ */
-
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .navbar {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 15px 5%;
-  } */
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: flex-start;
+    /* Align items to the start */
+    padding: 10px 5%;
+    /* Adjust padding */
+  }
 
-/* ul {
+  ul {
+    flex-direction: column;
+    /* Stack menu items vertically */
     width: 100%;
+    /* Full width */
     text-align: left;
-    display: none; */
-/* hide by default on mobile */
-/* flex-direction: column;
-    background: inherit;
-  } */
-
-/* ul.show {
-    display: flex;
+    /* Align text to the left */
+    margin: 10px 0;
+    /* Add margin */
   }
 
   ul li {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .toggle-icon {
-    display: block;
-    margin-left: auto;
+    margin: 5px 0;
+    /* Reduce margin for vertical stacking */
   }
 
   .search-box {
     width: 100%;
+    /* Full width for search box */
     margin: 10px 0;
+    /* Adjust margin */
+  }
+
+  .search-box input {
+    max-width: 100%;
+    /* Full width for input */
+    margin-left: 10px;
+    /* Adjust margin */
   }
 
   .login-signup {
     margin-left: 0;
+    /* Remove left margin */
     margin-top: 10px;
+    /* Add top margin */
     width: 100%;
-    text-align: center;
+    /* Full width */
   }
-} */
+
+  .login {
+    width: 100%;
+    /* Full width for button */
+    font-size: 14px;
+    /* Adjust font size */
+  }
+}
