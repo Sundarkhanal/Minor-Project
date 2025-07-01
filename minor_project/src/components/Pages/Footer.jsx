@@ -31,13 +31,13 @@ const Footer = () => {
       <section className='follow-us'>
         <h2>Follow Us</h2>
         <div className="social-icons">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-x-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-x-twitter"></i>
+          <i className="fa-brands fa-instagram"></i>
         </div>
       </section>
-</div>
+    </div>
 
   )
 }

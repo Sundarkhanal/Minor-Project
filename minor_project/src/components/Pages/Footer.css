@@ -116,6 +116,7 @@
     /* Center items */
     padding: 20px;
     /* Adjust padding */
+    width: 100%;
   }
 
   .footer-about img {
