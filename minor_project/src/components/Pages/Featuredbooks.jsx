@@ -14,19 +14,24 @@ const Featuredbooks = () => {
       <div className='book-grid'>
         <div className='book-card'>
           <img src={book1} alt="Book 1" />
-          <h4>Book Title 1</h4>
+          <h4>Seto Dharti</h4>
+          <h3>Npr. 200</h3>
         </div>
         <div className='book-card'>
           <img src={book2} alt="Book 2" />
-          <h4>Book Title 2</h4>
+          <h4>Mindset to Startup</h4>
+          <h3>Npr. 200</h3>
+
         </div>
         <div className='book-card'>
           <img src={book3} alt="Book 3" />
-          <h4>Book Title 3</h4>
+          <h4>The Start-Up code</h4>
+          <h3>Npr. 200</h3>
         </div>
         <div className='book-card'>
           <img src={book3} alt="Book 4" />
           <h4>Book Title 4</h4>
+          <h3>Npr. 200</h3>
         </div>
       </div>
     </section>

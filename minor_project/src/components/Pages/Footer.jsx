@@ -25,7 +25,7 @@ const Footer = () => {
         <h2>Contact Us</h2>
         <p><i className="fa-solid fa-phone"></i> 9861007396</p>
         <p><i className="fa-solid fa-envelope"></i> khanalpustakbhandar@gmail.com</p>
-        <p><i className="fa-solid fa-location-dot"></i> Dhurkot, Gulmi</p>
+        <p><i className="fa-solid fa-location-dot"></i> Dhumbarahi, Kathmandu</p>
       </section>
 
       <section className='follow-us'>

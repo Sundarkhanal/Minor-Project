@@ -111,49 +111,36 @@
 @media (max-width: 768px) {
   .footer-section {
     flex-direction: column;
-    /* Stack items vertically */
     align-items: center;
-    /* Center items */
+    text-align: center;
     padding: 20px;
-    /* Adjust padding */
-    width: 100%;
-  }
-
-  .footer-about img {
-    margin-left: 0;
-    /* Remove left margin */
+    gap: 40px;
   }
 
   .footer-about {
     align-items: center;
-    /* Center align items */
   }
 
-  .quick-links,
-  .contact-details {
+  .footer-about img {
+    margin-left: 0;
+  }
+
+  .quick-links {
     text-align: center;
-    /* Center text */
-    margin: 20px 0;
-    /* Add margin for spacing */
   }
 
-  .quick-links h2 {
-    font-size: 18px;
-    /* Adjust font size */
+  .quick-links h2,
+  .contact-details h2 {
+    text-align: center;
   }
 
-  .quick-links li {
-    line-height: 30px;
-    /* Adjust line height */
-  }
-
+  .quick-links li,
   .contact-details p {
     line-height: 30px;
-    /* Adjust line height */
   }
 
   .social-icons {
     margin-right: 0;
-    /* Remove right margin */
+    gap: 15px;
   }
 }

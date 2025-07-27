@@ -92,7 +92,9 @@
   justify-content: center;
   gap: 50px;
   padding: 30px;
-  margin: 40px auto;
+  margin-right: 4rem;
+  margin-left: 4rem;
+
   background-color: #f0f8ff;
 }
 
@@ -102,6 +104,8 @@
   margin: 40px 0 20px 0;
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 1rem;
+  padding-bottom: 0;
 }
 
 .dark .partners-title {
@@ -167,7 +171,16 @@
 
   .our-partners {
     flex-direction: column;
+    align-items: center;
+    padding: 2rem;
     gap: 50px;
     width: 100%;
+    margin-left: 0px;
+
+  }
+
+  .our-partners img {
+    width: 100px;
+    height: 100px;
   }
 }

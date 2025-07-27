@@ -55,7 +55,7 @@ const Navbar = () => {
 
       <div className="login-signup">
         <button className='login' onClick={handleLoginClick}>
-          <h1>Login</h1>
+          Login
         </button>
       </div>
       <div className="ham-menu">

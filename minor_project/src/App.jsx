@@ -11,6 +11,7 @@ import About from './components/Pages/About';
 import Product from './components/Pages/Product';
 import Contact from './components/Pages/Contact';
 import Login_SIgnup from './components/Pages/Login_SIgnup';
+import Footer from './components/Pages/Footer';
 
 const App = () => {
   return (

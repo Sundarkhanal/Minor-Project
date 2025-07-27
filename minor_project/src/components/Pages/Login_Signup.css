@@ -98,3 +98,15 @@ i {
     background: blueviolet;
     color: white;
 }
+
+.back-button {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
