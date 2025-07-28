@@ -16,22 +16,22 @@ const Popular_this_week = () => {
                 <div className='book-card'>
                     <img src={book1} alt="Book " />
                     <h4>Python</h4>
-                    <h3>Npr. 200</h3>
+                    <h3>Nrs. 200</h3>
                 </div>
                 <div className='book-card'>
                     <img src={book2} alt="Book " />
                     <h4>Coding Interview</h4>
-                    <h3>Npr. 200</h3>
+                    <h3>Nrs. 200</h3>
                 </div>
                 <div className='book-card'>
                     <img src={book3} alt="Book " />
                     <h4>Basic Data Structures</h4>
-                    <h3>Npr. 200</h3>
+                    <h3>Nrs. 200</h3>
                 </div>
                 <div className='book-card'>
                     <img src={book4} alt="Book " />
                     <h4>Node Js</h4>
-                    <h3>Npr. 200</h3>
+                    <h3>Nrs. 200</h3>
                 </div>
 
             </div>

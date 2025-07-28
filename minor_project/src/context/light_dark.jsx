@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
-// Make sure to EXPORT ThemeContext
+
 export const ThemeContext = createContext(); // <-- Add 'export' here
 
 export const ThemeProvider = ({ children }) => {

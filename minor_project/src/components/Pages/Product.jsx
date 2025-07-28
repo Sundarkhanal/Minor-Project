@@ -45,8 +45,8 @@ const Featuredbooks = () => {
             <h3>Nrs. 500</h3>
           </div>
           <div className='book-card'>
-            <img src={book3} alt="Book 4" />
-            <h4>The Startup code</h4>
+            <img src={physics} alt="Book 4" />
+            <h4>Physics</h4>
             <h3>Nrs. 500</h3>
           </div>
         </div>

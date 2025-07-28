@@ -1,5 +1,5 @@
-.popular-this-week h1{
-     font-size: 2rem;
+.popular-this-week h1 {
+    font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: 3rem;
     font-weight: bold;
@@ -7,10 +7,12 @@
     text-align: center;
 
 }
-.dark.popular-this-week{
+
+.dark.popular-this-week {
     background-color: black;
     color: white;
 }
-.dark.popular-this-week h1{
+
+.dark.popular-this-week h1 {
     color: white;
 }
