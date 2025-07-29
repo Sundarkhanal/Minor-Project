@@ -4,11 +4,10 @@ import { useNavigate } from 'react-router-dom';
 
 const Login_SIgnup = () => {
     const [action, setAction] = useState("Sign Up");
-    const navigate = useNavigate(); // ✅ Add this line
+    const navigate = useNavigate();
 
     return (
         <div>
-            {/* Back button OUTSIDE the container */}
             <div className="back-button" onClick={() => navigate('/')}>
                 ⬅ Back to Home
             </div>
@@ -16,6 +15,7 @@ const Login_SIgnup = () => {
             <div className="container">
                 <div className="header">
                     <div className="text">{action}</div>
+                    {/* action stores the state */}
                     <div className="underline"></div>
                 </div>
 

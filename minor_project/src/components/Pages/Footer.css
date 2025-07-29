@@ -3,7 +3,6 @@
   color: #fff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 40px 20px;
   margin-top: 50px;
 }
@@ -97,8 +96,6 @@
 .social-icons {
   display: flex;
   justify-content: center;
-  /* Center horizontally */
-  /* gap: 20px;                Space between icons */
   margin-top: 10px;
   margin-right: 80px;
 }

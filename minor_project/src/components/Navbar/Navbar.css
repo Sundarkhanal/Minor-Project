@@ -128,46 +128,35 @@ button {
     align-items: flex-start;
     /* Align items to the start */
     padding: 10px 5%;
-    /* Adjust padding */
   }
 
   ul {
     flex-direction: column;
     /* Stack menu items vertically */
     width: 100%;
-    /* Full width */
     text-align: left;
-    /* Align text to the left */
     margin: 10px 0;
-    /* Add margin */
   }
 
   ul li {
     margin: 5px 0;
-    /* Reduce margin for vertical stacking */
+
   }
 
   .search-box {
     width: 100%;
-    /* Full width for search box */
     margin: 10px 0;
-    /* Adjust margin */
   }
 
   .search-box input {
     max-width: 100%;
-    /* Full width for input */
     margin-left: 10px;
-    /* Adjust margin */
   }
 
   .login-signup {
     margin-left: 0;
-    /* Remove left margin */
     margin-top: 10px;
-    /* Add top margin */
     width: 100%;
-    /* Full width */
   }
 
   .login {
